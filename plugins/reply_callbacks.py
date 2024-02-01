@@ -202,7 +202,7 @@ async def service(app, query):
         return await query.edit_message_text(k, reply_markup=mk([[btn(f'- @{i} .', url=f't.me/{i}')]]))
     keys = mk(
         [
-            [btn(text='⦗ خدمات الرشق الـ ᴠɪᴘ ⦘', callback_data='vips'), btn(text='⦗خدمات الرشق الجانية⦘', callback_data='frees')],
+            [btn(text='⦗ خدمات الرشق الـ ᴠɪᴘ ⦘', callback_data='vips'), btn(text='⦗خدمات الرشق المجانية⦘', callback_data='frees')],
             [btn(text='رجوع', callback_data='back_home')],
         ]
     )
